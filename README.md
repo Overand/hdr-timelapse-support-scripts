@@ -1,0 +1,2 @@
+hdr-timelapse-support-scripts
+=============================
