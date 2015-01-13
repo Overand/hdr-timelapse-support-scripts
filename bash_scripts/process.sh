@@ -1,5 +1,8 @@
 #!/bin/bash
-#0 -- 480
+# Similar to "blend.sh" but  performs more operations.  -modulate is
+# brightness/sat/hue, plus it also doesscaling and cropping for a
+# standard "HD" video size.
+#
 
 ((foo = 0))
 until [ $foo -gt 69 ]; do

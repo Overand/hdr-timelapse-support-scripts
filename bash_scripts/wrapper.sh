@@ -1,6 +1,12 @@
 #!/bin/bash
 
 #Wrapper Script!
+#
+# This "forks out" multiple instances of the tonemapping scripts, with the idea
+# being to run as many as you have CPU cores, assuming the "tonemap-fattal-eq.sh"
+# script referenced in this case doesn't do multithreading itself.  Usage is as
+# specified.
+#
 
 mapper=$1
 threads=$2
